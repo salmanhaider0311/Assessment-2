@@ -1,0 +1,18 @@
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.csproj.AssemblyReference.cache
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.AssemblyInfoInputs.cache
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.AssemblyInfo.cs
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.csproj.CoreCompileInputs.cache
+D:\Assesment 2\Assesment 2\bin\Debug\net6.0\Assesment 2.exe
+D:\Assesment 2\Assesment 2\bin\Debug\net6.0\Assesment 2.deps.json
+D:\Assesment 2\Assesment 2\bin\Debug\net6.0\Assesment 2.runtimeconfig.json
+D:\Assesment 2\Assesment 2\bin\Debug\net6.0\Assesment 2.dll
+D:\Assesment 2\Assesment 2\bin\Debug\net6.0\Assesment 2.pdb
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.dll
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\refint\Assesment 2.dll
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.pdb
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.genruntimeconfig.cache
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\ref\Assesment 2.dll
+D:\Assesment 2\Assesment 2\bin\Debug\net6.0\nunit.framework.dll
+D:\Assesment 2\Assesment 2\bin\Debug\net6.0\nunit.framework.legacy.dll
+D:\Assesment 2\Assesment 2\obj\Debug\net6.0\Assesment 2.csproj.CopyComplete
