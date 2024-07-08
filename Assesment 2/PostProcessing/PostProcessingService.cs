@@ -34,8 +34,6 @@ namespace Assesment_2.PostProcessingDelegates
                     // Asynchronous Processing
                     processor.DynamicInvoke(post);
 
-                    // Updating
-                   // post.Status  = ProcessingStatus.Pending;
 
                     // Invoking Event
                     PostProcessed?.Invoke(this, post);

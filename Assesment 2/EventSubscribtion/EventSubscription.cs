@@ -12,9 +12,9 @@ namespace Assesment_2.EventSubscribtion
         public void SubscribeEvent(PostProcessingService postService)
         {
             // Event subscribtion
-            postService.PostProcessed += (sender, post) =>
+            postService.PostProcessed += (s, post) =>
             {
-                Console.WriteLine(post.PostId + " processed with status " + post.Status);
+                Console.WriteLine(post.PostId + " "+ post.Type+" processed with status " + post.Status);
             };
         }
     }

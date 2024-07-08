@@ -10,6 +10,7 @@ namespace Assesment_2.SocialMediaPost
     {
         public int PostId { get; set; }
         public PostType Type { get; set; }
+        // Generic Type T 
         public T Content { get; set; }
         public ProcessingStatus Status { get; set; }
 

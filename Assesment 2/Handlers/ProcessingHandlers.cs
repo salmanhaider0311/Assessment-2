@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Assesment_2.PostProcessingDelegates.Delegates;
 
 namespace Assesment_2.Handlers
 {
@@ -13,7 +12,7 @@ namespace Assesment_2.Handlers
     {
         public void ProcessingHandlersMethod (PostProcessingService postService)
         {
-            //Processing handlers
+            //Processing handlers delegates
 
             postService.RegisterProcessor(PostType.Text, new Action<SocialMediaPost<object>>(TextProcessingHandler));
             postService.RegisterProcessor(PostType.Image, new Action<SocialMediaPost<object>>(ImageProcessingHandler));
@@ -21,17 +20,26 @@ namespace Assesment_2.Handlers
         }
         static void TextProcessingHandler(SocialMediaPost<object> post)
         {
+            // Text processing Method
             Console.WriteLine("Processing Text with id {0}", post.PostId);
+
+            // Waiting for 1 second
             Thread.Sleep(1000);
         }
         static void ImageProcessingHandler(SocialMediaPost<object> post)
         {
+            // Image processing Method
             Console.WriteLine("Processing Image with id {0}", post.PostId);
+
+            // Waiting for 2 second
             Thread.Sleep(2000);
         }
         static void VideoProcessingHandler(SocialMediaPost<object> post)
         {
+            // video processing Method
             Console.WriteLine("Processing video with id {0}", post.PostId);
+
+            // Waiting for 3 second
             Thread.Sleep(3000);
         }
     }

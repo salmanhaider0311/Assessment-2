@@ -12,6 +12,7 @@ namespace Assesment_2.PostProcessing
     {
         public void ProcessRegisterLogic(PostProcessingService postService)
         {
+            // Text post processing
             var textPost = new SocialMediaPost<object>
             {
                 PostId = 1,
@@ -21,6 +22,7 @@ namespace Assesment_2.PostProcessing
             };
             postService.ProcessPost(textPost);
 
+            // Image post processing
             var imagePost = new SocialMediaPost<object>
             {
                 PostId = 2,
@@ -30,6 +32,7 @@ namespace Assesment_2.PostProcessing
             };
             postService.ProcessPost(imagePost);
 
+            // Video post processing
             var videoPost = new SocialMediaPost<object>
             {
                 PostId = 3,
